@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       name : "",
       lastname : "",
-      jokeNum : 3,
+      jokeNum : 6,
       jokeList : []
     }
   }
@@ -33,7 +33,8 @@ class App extends Component {
   render() {
     console.log(this.state);
     return (
-      <div className="">
+      <div className="center2 pa2">
+        <h1 className="animated bounceInDown mb3">JOKE-ME</h1>
         <CommandBar onNameChange ={this.onNameChange} onLastNameChange={this.onLastNameChange} onSubmit={this.onSubmit}/>
         <JokeDisplayBar jokeList={this.state.jokeList}/>
       </div>
