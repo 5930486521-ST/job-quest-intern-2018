@@ -5,6 +5,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "particles.js": "^2.0.0",
+    "randomcolor": "^0.5.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",

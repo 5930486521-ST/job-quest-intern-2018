@@ -23,10 +23,11 @@ label,p{
 
 }
 h3{
-	font: 100 25px/1.2 'Merienda One', Helvetica, sans-serif;
+	font-family: 'Dekko', cursive;
+	font-size: 4vh;
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
-
+	cursor: default;
 }
 
 
@@ -90,10 +91,6 @@ h3{
 
   }
 
-  .main {
-
-	background-image: url('./components/CommandBarBackgound.jpg');
-  }
 
   .checkbox {
     padding-left: 20px; }
