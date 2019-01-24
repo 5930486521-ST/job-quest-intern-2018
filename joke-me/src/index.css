@@ -1,6 +1,5 @@
 body {
 	width: 100wh;
-
 	color: #fff;
 	background: linear-gradient(-45deg,#6664d8,#66bedb, rgb(102, 228, 198));
 	background-size: 400% 400%;
@@ -9,11 +8,11 @@ body {
 	animation: Gradient 15s ease infinite;
 }
 
-
 h1 {
   font: 6em 'Merienda One', Helvetica, sans-serif;
   color: darksalmon;
   text-shadow: 3px 3px 3px #ffffff;
+  cursor: default;
 }
 
 label,p{
@@ -22,6 +21,7 @@ label,p{
 	text-shadow: 1px 1px 1px #ffffff;
 
 }
+
 h3{
 	font-family: 'Dekko', cursive;
 	font-size: 4vh;
@@ -29,7 +29,6 @@ h3{
 	text-shadow: 1px 1px 1px #000000;
 	cursor: default;
 }
-
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -84,47 +83,11 @@ h3{
 	align-self: center;
   }
 
-  .spaceBtw{
+.spaceBtw{
 	display: flex;
-
 	justify-content: space-between;
-
   }
 
-
-  .checkbox {
-    padding-left: 20px; }
-.checkbox label {
-    display: inline-block;
-    position: relative;
-    padding-left: 5px; }
-.checkbox label::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    left: 0;
-    margin-left: -20px;
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    background-color: #fff;
-    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
-    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
-	transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
-	
-.checkbox label::after {
-    display: inline-block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 0;
-    top: 0;
-    margin-left: -20px;
-    padding-left: 3px;
-    padding-top: 1px;
-    font-size: 11px;
-    color: #555555; }
 
 .checkbox {
 	padding-left: 20px;
@@ -181,3 +144,58 @@ h3{
 .checkbox1 input[type="checkbox"]:checked + label::after {
 	color: #fff; }
 
+	.lds-ellipsis {
+		display: inline-block;
+		position: relative;
+		width: 64px;
+		height: 64px;
+	  }
+	  .lds-ellipsis div {
+		position: absolute;
+		top: 27px;
+		width: 11px;
+		height: 11px;
+		border-radius: 50%;
+		background: #fff;
+		animation-timing-function: cubic-bezier(0, 1, 1, 0);
+	  }
+	  .lds-ellipsis div:nth-child(1) {
+		left: 6px;
+		animation: lds-ellipsis1 0.6s infinite;
+	  }
+	  .lds-ellipsis div:nth-child(2) {
+		left: 6px;
+		animation: lds-ellipsis2 0.6s infinite;
+	  }
+	  .lds-ellipsis div:nth-child(3) {
+		left: 26px;
+		animation: lds-ellipsis2 0.6s infinite;
+	  }
+	  .lds-ellipsis div:nth-child(4) {
+		left: 45px;
+		animation: lds-ellipsis3 0.6s infinite;
+	  }
+	  @keyframes lds-ellipsis1 {
+		0% {
+		  transform: scale(0);
+		}
+		100% {
+		  transform: scale(1);
+		}
+	  }
+	  @keyframes lds-ellipsis3 {
+		0% {
+		  transform: scale(1);
+		}
+		100% {
+		  transform: scale(0);
+		}
+	  }
+	  @keyframes lds-ellipsis2 {
+		0% {
+		  transform: translate(0, 0);
+		}
+		100% {
+		  transform: translate(19px, 0);
+		}
+	  }
