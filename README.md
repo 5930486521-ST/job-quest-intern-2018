@@ -1,5 +1,7 @@
-### TakeMeTour Internship Program 2018
+## I have deployed joke-me, my app name, to heroku. 
+### You can check it out here: https://joke-me.herokuapp.com/
 
+## TakeMeTour Internship Program 2018
 Hi all applicants! Welcome to TakeMeTour Internship Program 2018. Being an intern at TakeMeTour is challenging so we have challenges for you! These challenges are designed to assess your learning skill, which is the fundamental and most important skill of a great software developer. So I do not expect you to have full or any knowledge about the topic beforehand but it's your job to try to learn and answer those challenges.
 
 ## Algorithm in Javascript
@@ -56,11 +58,6 @@ console.log("worst kill/death ratio",data.reduce((worstHero,hero) => (hero["kill
 ```
 
 ## Simple Web Application: A joke from Chuck Norris.
-```
-I have deployed joke-me, my app name, to heroku
-You can check it out here: 
-```
-https://joke-me.herokuapp.com/
 
 This part of the quest will be a challenging one. You are going to make a simple web application which allows users to get some jokes from **Chuck Norris** himself.
 
