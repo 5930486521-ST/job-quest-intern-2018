@@ -77,19 +77,19 @@ Q1: What is GraphQL and how it is different from REST API?
 
 A1: 
 There are 2 parts:
-   1. Server: For REST, you define url and method of request then specify the response form. While GrapghQL, you have to define schema of each data set and define what parameter to recieve for each request method.
-   2. Client: For REST, you have to send the request through URL, and you will get response in the same form which defined form sever. While GraphQL, you can request data set and response form for data to respond.    
+   1. Server: For REST, you define URL and method of the request then specify the response form. While GrapghQL, you have to define schemas of each data set and define what parameter to receive for each request method.
+   2. Client: For REST, you have to send the request through URL, and you will get a response in the same form which defined form sever. While GraphQL, you can request data set and response form for data to respond.    
 
 Q2: Please explain how javascript benefits from cross-platform development
 
 A2: 
-  Many crossing-platform for javascript, can make javascript more popular, and always improve itself. As an developer, you can develop the whole bunch of code/logic with only using javascript. For example, you can use React.js framework for the front-end logic, and use Node.js framework as the back-end logic.
+  Many crossing-platform for javascript, can make javascript more popular, and always improve itself. As a developer, you can develop the whole bunch of code/logic with only using javascript. For example, you can use React.js framework for the front-end logic, and use Node.js framework as the back-end logic.
 
 Q3: What do you expect to get during an internship at TakeMeTour?
  
 A3: <insert your answer here>
-  1. To improve my technical skills in developer from the real-life situation.
-  2. To enhance the communication, co-operative or other soft skills to better in collaborating with companion.
+  1. To improve my technical skills in being a developer from a real-life situation.
+  2. To enhance the communication, co-operative or other soft skills to better in collaborating with companions.
   3. To grasp how startup company works, how they improve or motivate themselves. (  I'm really interested in this field and really want to be a part of it :) )
   
 ## Submitting
