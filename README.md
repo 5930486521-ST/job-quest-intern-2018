@@ -56,6 +56,11 @@ console.log("worst kill/death ratio",data.reduce((worstHero,hero) => (hero["kill
 ```
 
 ## Simple Web Application: A joke from Chuck Norris.
+```
+I have deployed joke-me, my app name, to heroku
+You can check it out here: 
+```
+https://joke-me.herokuapp.com/
 
 This part of the quest will be a challenging one. You are going to make a simple web application which allows users to get some jokes from **Chuck Norris** himself.
 
